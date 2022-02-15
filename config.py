@@ -14,8 +14,8 @@ class Config:
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
     MAIL_USE_TLS = True
-    MAIL_USERNAME = 'babrakiyai080@gmail.com'
-    MAIL_PASSWORD = '@Umbrella1'
+    MAIL_USERNAME = 'babra.kiyai@student.moringaschool.com'
+    MAIL_PASSWORD = 'SOHELPMEGOD!'
 
     # simple mde  configurations
     SIMPLEMDE_JS_IIFE = True
