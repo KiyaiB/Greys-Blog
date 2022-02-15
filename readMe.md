@@ -28,6 +28,8 @@ As a user I will be able to;
 
    . Bootstrap
 
+# DEPENDENCIES
+
 # SETUP/INSTALLATION
 
 Clone the Repository
