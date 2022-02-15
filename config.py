@@ -21,7 +21,7 @@ class Config:
     SIMPLEMDE_USE_CDN = True
 
 class ProdConfig(Config):
-    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL').replace("://", "ql://", 1)
+    SQLALCHEMY_DATABASE_URI = ('postgres://xbytshqrcnejxz:073bbb312ba84b40bcc07df260858ddbf3bfa9b7b9a73d529b59b067cbeb4ccb@ec2-52-207-74-100.compute-1.amazonaws.com:5432/ddhs9q1bi4ab55').replace("://", "ql://", 1) 
 
 
 class DevConfig(Config):
