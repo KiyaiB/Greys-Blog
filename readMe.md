@@ -30,6 +30,16 @@ As a user I will be able to;
 
 # DEPENDENCIES
 
+   . Flask==1.1.4
+
+   . Flask-Bootstrap
+
+   . Flask-Script
+
+   . Jinja2
+   
+   . Werkzeug  
+
 # SETUP/INSTALLATION
 
 Clone the Repository
