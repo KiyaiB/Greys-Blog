@@ -29,3 +29,13 @@ As a user I will be able to;
    . Bootstrap
 
 # SETUP/INSTALLATION
+
+Clone the Repository
+
+   $ Open Terminal ( Ctrl Alt T)
+
+   $ git clone link
+
+   $ cd directory-name(Blog)
+
+   $ code .
