@@ -22,3 +22,8 @@ As a user I will be able to;
 
 # TECHNOLOGIES USED
 
+   . Python3.9
+
+   . Flask
+   
+   . Bootstrap
