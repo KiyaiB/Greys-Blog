@@ -4,7 +4,7 @@ import os
 class Config:
 
     QUOTE_API_BASE_URL ='http://quotes.stormconsultancy.co.uk/random.json'
-    SECRET_KEY = os.environ.get('12345')
+    SECRET_KEY = os.environ.get('barbz')
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:password@localhost/blogs'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     UPLOADED_PHOTOS_DEST ='app/static/photos'
