@@ -5,7 +5,8 @@ class Config:
 
     QUOTE_API_BASE_URL ='http://quotes.stormconsultancy.co.uk/random.json'
     SECRET_KEY = 'barbz'
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:password@localhost/blogs'
+    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:password@localhost/blogs'
+    SQLALCHEMY_DATABASE_URI = ('postgres://xbytshqrcnejxz:073bbb312ba84b40bcc07df260858ddbf3bfa9b7b9a73d529b59b067cbeb4ccb@ec2-52-207-74-100.compute-1.amazonaws.com:5432/ddhs9q1bi4ab55').replace("://", "ql://", 1) 
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     UPLOADED_PHOTOS_DEST ='app/static/photos'
 
@@ -25,7 +26,7 @@ class ProdConfig(Config):
 
 
 class DevConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:password@localhost/blogs'
+    SQLALCHEMY__URI = 'postgresql+psycopg2://postgres:password@localhost/blogs'
     DEBUG = True
 
     
