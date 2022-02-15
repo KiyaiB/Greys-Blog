@@ -17,5 +17,8 @@ As a user I will be able to;
    . Post a blog
 
    . See random quotes
-   
+
    . See all comments posted
+
+# TECHNOLOGIES USED
+
